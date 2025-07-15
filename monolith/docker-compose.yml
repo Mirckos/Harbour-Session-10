@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  msg_api:
+    build: .              # build image from Dockerfile in the current directory
+    container_name: msg_api
+    ports:                # host:container
+      - "8000:8000"
+    environment:          # tweak verbosity without touching code
+      - LOG_LEVEL=info
