@@ -1,3 +1,3 @@
 # Harbour-Session-10
 
-Three different architecture projects with docker-compose 
+Three projects in docker-compose with different architectural approaches (monolith and world services)
